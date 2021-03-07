@@ -5,29 +5,29 @@ import { SocialIcon } from "react-social-icons";
 
 export default function NavBar(){
     return (
-        <header className="bg-black border-b-2 border-yellow-600">
+        <header className="bg-gray-450 border-b-2 border-blue-550">
             <div className="container mx-auto flex ">
                 <nav className="flex">
                     <NavLink to="/" exact
                     activeClassName="text-white" 
-                    className=" text-sm sm:text-6xl inline-flex items-center sm:py-0 sm:px-2 sm:mr-4 mr-4 text-white hover:text-yellow-600 font-bold cursive tracking-widest">
+                    className=" text-sm sm:text-6xl inline-flex items-center sm:py-0 sm:px-2 sm:mr-4 mr-4 text-white hover:text-blue-650 font-bold cursive tracking-widest">
                         Michael
                     </NavLink>
                     <NavLink to="/post"
-                    activeClassName="text-yellow-600 bg-white"
-                    className= "text-xs  sm:text-2xl inline-flex items-center sm:py-0 sm:px-3 sm:my-6 mr-2 rounded text-white hover:text-yellow-600"
+                    activeClassName="text-blue-650"
+                    className= "text-xs  sm:text-2xl inline-flex items-center sm:py-0 sm:px-3 sm:my-6 mr-2 rounded text-white hover:text-blue-650"
                     >
                         Blog Posts
                     </NavLink >
                     <NavLink to="/project"
-                    activeClassName="text-yellow-600 bg-white"
-                    className= "text-xs sm:text-2xl inline-flex items-center sm:py-0 sm:px-3 sm:my-6 mr-2 rounded text-white hover:text-yellow-600"
+                    activeClassName="text-blue-650"
+                    className= "text-xs sm:text-2xl inline-flex items-center sm:py-0 sm:px-3 sm:my-6 mr-2 rounded text-white hover:text-blue-650"
                     >
                         Projects
                     </NavLink>
                     <NavLink to="/about"
-                    activeClassName="text-yellow-600 bg-white"
-                    className= "text-xs sm:text-2xl inline-flex items-center sm:py-0 sm:px-3 sm:my-6 mr-2 rounded text-white hover:text-yellow-600"
+                    activeClassName="text-blue-650"
+                    className= "text-xs sm:text-2xl inline-flex items-center sm:py-0 sm:px-3 sm:my-6 mr-2 rounded text-white hover:text-blue-650"
                     >
                         About Me!
                     </NavLink>

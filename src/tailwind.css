@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Uniform";
+    src: local("Uniform"), url(./uniformextracondensed-regular-webfont[1422].ttf)
+  }
+
+  .cursive {
+    font-family: "Uniform", cursive;
+  }
