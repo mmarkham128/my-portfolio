@@ -39,11 +39,11 @@ export default function Project(){
                                 {new Date(project.date).toLocaleDateString()}
                             </span>
                             <span>
-                            <strong className=" font-bold">Company</strong>:{" "}
+                            <strong className="ml-2 font-bold">Company</strong>:{" "}
                             {project.place}
                             </span>
                             <span>
-                            <strong className=" font-bold">Type</strong>:{" "}
+                            <strong className="ml-2 font-bold">Type</strong>:{" "}
                             {project.projectType}
                             </span>
                             <p className="my-6 text-lf text-white leading-relaxed">
