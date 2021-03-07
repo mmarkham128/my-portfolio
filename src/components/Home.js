@@ -9,7 +9,7 @@ export default function Home(){
             <div className=" relative flex justify-center pt-28 sm:pt-24 xl:pt-12 lg:pt-48 md:pt-36 px-8">
                 <h1 className=" text-3xl lg:text-7xl sm:text-7xl text-yellow-600 font-bold cursive leading-none lg:leading-snug ">Michael Markham</h1>
             </div>
-            <div className=" relative flex justify-center pt-4 xl:pt-16 lg:pt-40 md:pt-8 px-8">
+            <div className=" relative flex justify-center pt-0 xl:pt-16 lg:pt-40 md:pt-8 px-8">
                 <h2 className=" text-3xl lg:text-7xl sm:text-7xl text-yellow-600 font-bold cursive leading-none lg:leading-snug ">Software Developer</h2>
             </div>
             </section>
