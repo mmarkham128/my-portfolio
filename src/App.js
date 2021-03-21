@@ -12,8 +12,7 @@ function App() {
   <BrowserRouter>
   <NavBar />
   <Switch>
-    <Route component={Home} path='/' exact/>
-    <Route component={About} path='/about'/>
+    <Route component={About} path='/' exact/>
     <Route component={SinglePost} path='/post/:slug'/>
     <Route component={Post} path='/post'/>
     <Route component={Project} path='/project'/>

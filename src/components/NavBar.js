@@ -25,12 +25,7 @@ export default function NavBar(){
                     >
                         Projects
                     </NavLink>
-                    <NavLink to="/about"
-                    activeClassName="text-blue-650"
-                    className= "text-xs sm:text-2xl inline-flex items-center sm:py-0 sm:px-3 sm:my-6 mr-2 rounded text-white hover:text-blue-650"
-                    >
-                        About Me!
-                    </NavLink>
+                    
                 </nav>
                 <div className="inline-flex  sm:py-0 sm:px-3 sm:my-6">
                     <SocialIcon url="https://github.com/mmarkham128" className="sm:mr-4" target="_blank" fgColor="#fff" style={{ height:30, width: 30}} />
