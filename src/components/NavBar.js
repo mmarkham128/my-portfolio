@@ -28,9 +28,9 @@ export default function NavBar(){
                     
                 </nav>
                 <div className="inline-flex  sm:py-0 sm:px-3 sm:my-6">
-                    <SocialIcon url="https://github.com/mmarkham128" className="sm:mr-4" target="_blank" fgColor="#fff" style={{ height:30, width: 30}} />
-                    <SocialIcon url="https://www.facebook.com/ryan.markham.334/" className="sm:mr-4" target="_blank" fgColor="#fff" style={{ height:30, width: 30}} />
-                    <SocialIcon url="https://www.linkedin.com/in/mmarkham128/" className="sm:mr-4" target="_blank" fgColor="#fff" style={{ height:30, width: 30}} /> 
+                    <SocialIcon url="https://github.com/mmarkham128" className="sm:mr-4 hover:opacity-50" target="_blank" fgColor="#fff" style={{ height:30, width: 30}} />
+                    <SocialIcon url="https://www.facebook.com/ryan.markham.334/" className="sm:mr-4 hover:opacity-50" target="_blank" fgColor="#fff" style={{ height:30, width: 30}} />
+                    <SocialIcon url="https://www.linkedin.com/in/mmarkham128/" className="sm:mr-4 hover:opacity-50" target="_blank" fgColor="#fff" style={{ height:30, width: 30}} /> 
 
                 </div>
             </div>
